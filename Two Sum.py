@@ -5,9 +5,8 @@ class Solution(object):
                 if nums[i] + nums[j] == target:
                     return [i, j]
 
+        return []
 
-        else:
-            print("Two Sum does not exist.")
 
 
 
